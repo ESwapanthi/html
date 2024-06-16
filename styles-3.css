@@ -1,0 +1,4 @@
+.styled-table 
+tr{background-color:green;}
+tr:nth-child(even){background-color:grey}
+tr:nth-child(odd){background-color:white} 

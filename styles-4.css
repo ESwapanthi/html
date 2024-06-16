@@ -1,0 +1,58 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 10px; /* Space between the buttons */
+}
+
+.nav-home {
+    background-color: #4CAF50; /* Green */
+}
+
+.nav-services {
+    background-color: #2196F3; /* Blue */
+}
+
+.nav-clients {
+    background-color: #f44336; /* Red */
+}
+
+.nav-contact {
+    background-color: #ff9800; /* Orange */
+}
+
+.sidenav a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.main {
+    margin-left: 220px; /* Same as the width of the sidenav + 20px for padding */
+    padding: 20px;
+}
